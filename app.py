@@ -9,7 +9,7 @@ def welcome():
 
 
 @app.route("/citiesAvailable")
-def all():
+def citiesAvailable():
     return jsonify(readCSV.loadAllCitiesAvailable())
 
 
