@@ -5,3 +5,11 @@ df = pd.read_csv('../../prix_immobilier_fictif.csv', sep=',')
 
 def loadAllCitiesAvailable():
     return df['Ville'].unique().tolist()
+
+
+def getCity(city):
+    return df[df['Ville'] == city]
+
+
+def quartier(quartier):
+    return df[df['Quartier'] == quartier]

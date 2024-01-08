@@ -8,10 +8,20 @@ def welcome():
     return "Welcome to your API"
 
 
-@app.route("/citiesAvailable")
+@app.route('/villes', methods=['GET'])
 def citiesAvailable():
     return jsonify(readCSV.loadAllCitiesAvailable())
 
 
-if __name__ == "__main__":
+@app.route('/ville/<string:ville>', methods=['GET'])
+def city(ville):
+    return jsonify(readCSV.getCity(ville).toList())
+
+
+@app.route('/quartier/<string:quartier>', methods=['GET'])
+def quartier(quartier):
+    return jsonify(readCSV.quartier(quartier).toList())
+
+
+if __name__ == '__main__':
     app.run(debug=True)
