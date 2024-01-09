@@ -15,12 +15,17 @@ def citiesAvailable():
 
 @app.route('/ville/<string:ville>', methods=['GET'])
 def city(ville):
-    return jsonify(readCSV.getCity(ville).toList())
+    return jsonify(readCSV.getCity(ville))
 
 
 @app.route('/quartier/<string:quartier>', methods=['GET'])
 def quartier(quartier):
-    return jsonify(readCSV.quartier(quartier).toList())
+    return jsonify(readCSV.quartier(quartier))
+
+
+@app.route('/quartierParVille/<string:ville>/<string:quartier>', methods=['GET'])
+def quartierParVille(ville, quartier):
+    return jsonify(readCSV.quartierParVille(ville, quartier))
 
 
 if __name__ == '__main__':
