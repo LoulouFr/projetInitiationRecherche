@@ -1,4 +1,4 @@
-# Guide d'Utilisation de l'Application Streamlit pour la Recherche de Prix Immobilier par Ville et Quartier
+# Guide d'utilisation de l'application pour le module initiation à la recherche.
 
 Biennvenue dans le projet d'initiaiton à la recherche de Ladislas HEBRARD DE VEYRINAS et de Loïc ARNAL.
 
@@ -12,7 +12,7 @@ Veuillez suivre les instructions suivantes pour faire fonctionner le projet.
 - Lancer l'application : ``python app.py``
 - lancer le webclient : ``run streamlit webclient.py``
 - L'application devrait se lancer automatiquement.
-- Lancer les tests unitaires : ``pytest`
+- Lancer les tests unitaires : ``pytest``
 - Il y a un script SQL pouvant être lancé dans une base de donnée mySQL mais il n'est pas relié au code par manque de temps.
 
 ## Utilisation de l'application :
@@ -41,4 +41,4 @@ Après avoir sélectionné une ville, l'interface affichera la moyenne des prix 
 ## Remarques :
 Les données utilisées dans cette application sont obtenues à partir d'une API locale accessible à l'adresse : [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
-### Auteurs : Ladislas HEBRARD DE VEYRINAS & Loïc ARNAL
+### Auteurs : Ladislas HEBRARD DE VEYRINAS & Loïc ARNAL.
