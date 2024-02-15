@@ -17,3 +17,8 @@ def quartier(quartier):
 
 def quartierParVille(ville, quartier):
     return (df[(df['Quartier'] == quartier) & (df['Ville'] == ville)]).to_dict(orient='records')
+
+
+def meanPrice(ville):
+    df_ville = df[df['Ville'] == ville]
+    return df_ville['Prix au m²'].mean()

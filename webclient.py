@@ -30,6 +30,14 @@ def main():
     # Afficher les données pour le quartier choisi
     st.write(df_quartier)
 
+    st.write(f"### Moyenne des prix immobiliers pour la ville {ville_choisie}")
+    response = requests.get('http://127.0.0.1:5000/prixMoyenVille/' + ville_choisie)
+
+    df_prix_moyen = pd.DataFrame(response.json(), index=[0]).to_string()
+    df_moyen_final = float(df_prix_moyen.split()[2])
+
+    st.write("Le prix moyen de l'immobilier dans la ville de "+ville_choisie+" est : "+str(round(df_moyen_final, 2)))
+
 
 if __name__ == '__main__':
     main()
