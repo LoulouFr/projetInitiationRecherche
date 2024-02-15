@@ -30,9 +30,7 @@ def quartierParVille(ville, quartier):
 
 @app.route('/prixMoyenVille/<string:ville>', methods=['GET'])
 def prixMoyenVille(ville):
-    prix_moyen = readCSV.meanPrice(ville)
-    print(prix_moyen)
-    return jsonify({'prix_moyen': str(prix_moyen)})
+    return jsonify({'prix_moyen': str(readCSV.meanPrice(ville))})
 
 
 if __name__ == '__main__':
