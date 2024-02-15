@@ -2,22 +2,28 @@
 
 Bienvenue dans l'application Streamlit dédiée à la recherche de prix immobilier par ville et quartier. Cette application vous permet de visualiser les prix immobiliers moyens dans différentes villes et quartiers à partir de données stockées dans un fichier CSV. Voici comment utiliser cette interface :
 
-## Instructions :
+## Utilisation de l'application :
 
 ### Choix de la Ville :
 Utilisez le menu déroulant pour sélectionner la ville dont vous souhaitez consulter les prix immobiliers.
 
-### Contenu du fichier CSV pour la Ville Sélectionnée :
-Après avoir sélectionné une ville, l'interface affichera le contenu du fichier CSV correspondant à cette ville.
+![](Images/ChoixVille.PNG)
+
 
 ### Choix du Quartier :
 Une fois la ville sélectionnée, utilisez le menu déroulant pour choisir le quartier spécifique dont vous souhaitez consulter les prix immobiliers.
 
+![](Images/ChoixQuartier.PNG)
+
 ### Affichage des Prix Immobiliers pour le Quartier Sélectionné :
 L'interface affichera les prix immobiliers pour le quartier choisi.
 
+![](Images/AfficheVilleQuartier.PNG)
+
 ### Affichage de la Moyenne des Prix Immobiliers pour la Ville Sélectionnée :
 Après avoir sélectionné une ville, l'interface affichera la moyenne des prix immobiliers pour cette ville.
+
+![](Images/AffichePrixMoyen.PNG)
 
 ## Remarques :
 
