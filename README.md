@@ -4,10 +4,11 @@ Bienvenue dans l'application Streamlit dédiée à la recherche de prix immobili
 
 ## Lancement de l'application
 
+- Lancer l'installation des dépendances : ``pip install -r requirements.txt``
 - Lancer l'application : ``python app.py``
 - lancer le webclient : ``run streamlit webclient.py``
 - L'application devrait se lancer automatiquement.
-- Lancer les tests unitaires : ``pytest``
+- Lancer les tests unitaires : ``pytest`
 - Il y a un script SQL pouvant être lancé dans une base de donnée mySQL mais il n'est pas relié au code par manque de temps.
 
 ## Utilisation de l'application :
