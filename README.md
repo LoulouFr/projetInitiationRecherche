@@ -2,6 +2,14 @@
 
 Bienvenue dans l'application Streamlit dédiée à la recherche de prix immobilier par ville et quartier. Cette application vous permet de visualiser les prix immobiliers moyens dans différentes villes et quartiers à partir de données stockées dans un fichier CSV. Voici comment utiliser cette interface :
 
+## Lancement de l'application
+
+- Lancer l'application : ``python app.py``
+- lancer le webclient : ``run streamlit webclient.py``
+- L'application devrait se lancer automatiquement.
+- Lancer les tests unitaires : ``pytest``
+- Il y a un script SQL pouvant être lancé dans une base de donnée mySQL mais il n'est pas relié au code par manque de temps.
+
 ## Utilisation de l'application :
 
 ### Choix de la Ville :
