@@ -1,6 +1,10 @@
 # Guide d'Utilisation de l'Application Streamlit pour la Recherche de Prix Immobilier par Ville et Quartier
 
-Bienvenue dans l'application Streamlit dédiée à la recherche de prix immobilier par ville et quartier. Cette application vous permet de visualiser les prix immobiliers moyens dans différentes villes et quartiers à partir de données stockées dans un fichier CSV. Voici comment utiliser cette interface :
+Biennvenue dans le projet d'initiaiton à la recherche de Ladislas HEBRARD DE VEYRINAS et de Loïc ARNAL.
+
+Veuillez suivre les instructions suivantes pour faire fonctionner le projet.
+
+**En cas de problème, veuillez nous contacter immediatement sur nos addresses mails ISEN.**
 
 ## Lancement de l'application
 
@@ -35,11 +39,6 @@ Après avoir sélectionné une ville, l'interface affichera la moyenne des prix 
 ![](Images/AffichePrixMoyen.PNG)
 
 ## Remarques :
+Les données utilisées dans cette application sont obtenues à partir d'une API locale accessible à l'adresse : [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
-- Les données utilisées dans cette application sont obtenues à partir d'une API locale accessible à l'adresse : [http://127.0.0.1:5000](http://127.0.0.1:5000).
-- Assurez-vous que le serveur local est en cours d'exécution pour que l'application fonctionne correctement.
-- En cas de problème ou de question, veuillez contacter l'administrateur de l'application.
-
-Pour utiliser cette application, veuillez exécuter le script Python et suivre les instructions affichées dans l'interface utilisateur de Streamlit.
-
-### Auteurs : Ladislas Veyrinas & Loïc Arnal
+### Auteurs : Ladislas HEBRARD DE VEYRINAS & Loïc ARNAL
